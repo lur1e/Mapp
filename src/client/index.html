@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Real time multi-player games with HTML5</title>
+        <!-- Load style sheet -->
+        <link href="./src/client/index.css" media="screen" rel="stylesheet" type="text/css">
+
+        <!-- Library code -->
+        <!-- Load socket.io client side contents. -->
+        <script src="../../socket.io/socket.io.js"></script>
+        <!-- Load the GUI rendering library code. -->
+        <script type="text/javascript" src="lib/dat.gui.min.js"></script>
+        <!-- Load the keyboard specific code -->
+        <script type="text/javascript" src="lib/keyboard.js"></script>
+
+        <!-- Game code -->
+        <!-- Load the common game code. -->
+        <script type="text/javascript" src="./src/server/game.core.js"></script>
+        <!-- Finally, Load the game client code. -->
+        <script type="text/javascript" src="./src/client/client.js"></script>
+    </head>
+
+    <body>
+        <canvas id="viewport">
+        </canvas>
+    </body>
+</html>
